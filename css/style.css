@@ -345,9 +345,14 @@ footer{
 
 .social ul{
     display: flex;
-    gap: 15px;
+    gap: 25px;
     list-style-type: none;
 }
+.social ul li{
+    width: 30px;
+    cursor: pointer;
+}
+
 footer hr{
     width: 100%;
     margin: 20px 0px;
