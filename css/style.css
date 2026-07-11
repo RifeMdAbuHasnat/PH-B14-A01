@@ -38,7 +38,7 @@ img {
 }
 
 .reg-btn {
-    background-color: Blue;
+    background-color: #2563EB;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 20px;
@@ -107,7 +107,7 @@ img {
 }
 
 .innercard span {
-    color: rgb(30, 30, 255);
+    color: #2563EB;
     font-size: 12px;
 }
 
@@ -132,15 +132,67 @@ img {
     color: rgba(0, 0, 0, 0.699);
 }
 .all-price{
-    margin-top: 20px;
+    margin: 20px 10%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
+
 .price-card{
 border: 1px solid black;
+border-radius: 10px;
 padding: 30px;
+flex: 1;
+
 }
-.price-card ul{
-list-style-type: ;
+
+.price-card span{
+    color: grey;
+    font-size: 16px;
+}
+
+.price-card h3{
+    font-size: 38px;
+}
+
+.price-card hr{
+    color: grey;
+    margin: 25px 0px;
+}
+
+.price-card ul li{
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.price-card button{
+    margin: 20px 0px 10px;
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+}
+
+.price-card button:hover{
+    background-color: #2563EB;
+    color: white;
+    border: 1px solid #2563EB;
+}
+
+
+.pro-card{
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.pro-card button{
+    background-color: #2563EB;
+    color: white;
+}
+.pro-card button:hover{
+    background-color: white;
+    color: #2563EB;
 }
