@@ -1,13 +1,73 @@
-header{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.menu ul li{
-    list-style-type: none;
+img{
+    width: 100%;
+}
 
+
+header{
+border: 2px solid orange;
+
+}
+
+.header-main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px
 }
 
 .menu ul li a{
+    padding: 10px;
     text-decoration: none;
+    color: black;
 
+}
+
+.menu ul li a:hover{
+    background-color:orange;
+
+}
+
+.reg-btn {
+    background-color:Blue;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+}
+
+.reg-btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.reg-btn:hover{
+    background-color: orange;
+}
+
+.header-hero{
+    background-image: url("../image/banner.jpg");
+    height: 500px;
+    background-size: contain;
+}
+
+.header-hero h2{
+    color: white;
+}
+.header-hero p{
+    color: white;
 }
