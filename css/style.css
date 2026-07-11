@@ -195,3 +195,163 @@ flex: 1;
     background-color: white;
     color: #2563EB;
 }
+
+/* from AI: gemini css start from here */
+/* =========================================
+   Why Attend Section Styles
+   ========================================= */
+
+/* Container Setup */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section Styling */
+.why-attend {
+  background-color: #f8f9fa; /* Clean, modern light gray background */
+  padding: 100px 0;
+  color: #111827; /* High-end dark text */
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Section Header (Flexbox) */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.section-header p {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Features Grid Setup (CSS Grid) */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* Feature Card Styling */
+.feature-card {
+  background: #ffffff;
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Box (Flexbox for centering) */
+.icon-box {
+  width: 56px;
+  height: 56px;
+  background-color: #111827;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Simulated Icons */
+.icon-box i {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff; /* Placeholder for actual SVGs */
+  border-radius: 50%;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.feature-card p {
+  color: #475569;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* =========================================
+   Responsive Design (Media Queries)
+   ========================================= */
+
+/* Tablet Devices */
+@media (max-width: 992px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .why-attend {
+    padding: 64px 0;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-card {
+    align-items: center;
+    text-align: center;
+  }
+}
+/* from AI: gemini css end here */
+
+/* Footer css */
+footer{
+    padding: 30px 7%;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+footer hr{
+    width: 100%;
+    margin: 20px 0px;
+}
+.footer-bottom{
+    text-align: center;
+}
