@@ -8,11 +8,6 @@ img{
 }
 
 
-header{
-border: 2px solid orange;
-
-}
-
 .header-main-div{
     display: flex;
     justify-content: space-around;
@@ -61,13 +56,27 @@ border: 2px solid orange;
 
 .header-hero{
     background-image: url("../image/banner.jpg");
-    height: 500px;
+    height: 480px;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20%;
+
 }
 
 .header-hero h2{
     color: white;
+    font-size: 2.5rem;
+    margin: 50px auto 10px;
 }
 .header-hero p{
     color: white;
+    width: 430px;
+    text-align: center;
+}
+
+.header-hero button{
+    margin-top: auto;
+    margin-bottom: 50px;
 }
