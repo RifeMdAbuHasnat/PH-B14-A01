@@ -1,61 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     width: 100%;
 }
 
 
-.header-main-div{
+.header-main-div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0px;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
     display: flex;
     gap: 10px
 }
 
-.menu ul li a{
+.menu ul li a {
     padding: 10px;
     text-decoration: none;
     color: black;
 
 }
 
-.menu ul li a:hover{
-    background-color:orange;
+.menu ul li a:hover {
+    background-color: orange;
 
 }
 
 .reg-btn {
-    background-color:Blue;
+    background-color: Blue;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 20px;
     border: none;
 }
 
-.reg-btn:hover{
+.reg-btn:hover {
     background-color: orange;
 }
 
-.reg-btn a{
+.reg-btn a {
     text-decoration: none;
     color: aliceblue;
 }
 
 
-.header-hero{
+.header-hero {
     background-image: url("../image/banner.jpg");
     height: 500px;
     background-size: cover;
@@ -66,23 +66,24 @@ img{
 
 }
 
-.header-hero h2{
+.header-hero h2 {
     color: white;
     font-size: 2.5rem;
     margin: 50px auto 10px;
 }
-.header-hero p{
+
+.header-hero p {
     color: white;
     width: 430px;
     text-align: center;
 }
 
-.header-hero button{
+.header-hero button {
     margin-top: auto;
     margin-bottom: 50px;
 }
 
-.speakers-section div h2{
+.speakers-section div h2 {
     font-size: 42px;
     text-align: center;
     padding: 25px 0px;
@@ -101,18 +102,45 @@ img{
     overflow: hidden;
 }
 
-.innercard{
+.innercard {
     margin: 10px;
 }
 
-.innercard span{
+.innercard span {
     color: rgb(30, 30, 255);
     font-size: 12px;
 }
-.innercard h3{
+
+.innercard h3 {
     font-size: 20px;
 }
-.innercard p{
-    color:rgba(0, 0, 0, 0.699);
+
+.innercard p {
+    color: rgba(0, 0, 0, 0.699);
     font-size: 14px;
+}
+
+.secure-section-top{
+    text-align: center;
+}
+
+.secure-section-top h2{
+    font-size: 42px;
+    padding: 25px 0px 10px;
+}
+.secure-section-top span{
+    color: rgba(0, 0, 0, 0.699);
+}
+.all-price{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.price-card{
+border: 1px solid black;
+padding: 30px;
+}
+.price-card ul{
+list-style-type: ;
 }
